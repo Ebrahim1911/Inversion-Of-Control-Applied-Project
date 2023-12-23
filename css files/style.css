@@ -1,0 +1,56 @@
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: hsl(240, 48%, 15%);
+  /* position: relative; */
+  background-image: url("/assets/bg_texture.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  margin: 4rem 0;
+  font-size: 2rem;
+  position: relative;
+  color: #ffb116;
+}
+.button {
+  font-size: 1.2rem;
+  border: none;
+  background-color: hsl(210, 100%, 50%);
+  color: hsl(240, 47%, 94%);
+  width: fit-content;
+  border-radius: 1.5rem;
+  margin: 0 auto;
+  padding: 0.9rem 2rem;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.button:hover {
+  background-color: #ffb116;
+  color: hsl(240, 48%, 15%);
+}
+.advice {
+  width: fit-content;
+  color: white;
+  border-right: 0.1rem solid #ffb116;
+  animation: blink 0.5s infinite;
+  -webkit-animation: blink 0.5s infinite;
+  position: relative;
+}
+
+@keyframes blink {
+  from {
+    border-right: 0.1rem solid #ffb116;
+  }
+  to {
+    border-right: 0.1rem solid hsl(210, 100%, 50%);
+  }
+}
