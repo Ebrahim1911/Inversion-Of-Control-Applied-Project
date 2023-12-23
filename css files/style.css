@@ -3,7 +3,7 @@ body {
   font-family: "Montserrat Alternates", sans-serif;
   background-color: hsl(240, 48%, 15%);
   /* position: relative; */
-  background-image: url("/assets/bg_texture.png");
+  background-image: url("../assets/bg_texture.png");
   display: flex;
   justify-content: center;
   align-items: center;
